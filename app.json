@@ -5,15 +5,15 @@
   "env": {
     "BOT_TOKEN": {
       "description": "Botfather-dən Bot nişanı.",
-      "value": "bəbə"
+      "value": "5777282779:AAGT_x4O7MPEUHLdMc3UFyJigxmIGv9-6_M"
     },
     "API_ID": {
       "description": "Bu dəyəri https://my.telegram.org saytından əldə edin.",
-      "value": "bəbə"
+      "value": "21313204"
     },
     "API_HASH": {
       "description": "Bu dəyəri https://my.telegram.org saytından əldə edin.",
-      "value": "bəbə"
+      "value": "39231a44e25daff4a7573a535fdd094b"
     },
     "BOT_NAME": {
       "description": "User Tag Botunuz üçün ad. Zəhmət olmasa ascii simvollarından istifadə etməyin.",
@@ -41,7 +41,7 @@
     },
     "OWNER_USERNAME": {
       "description": "Botun sahibinin ünvanını daxil edin.",
-      "value": "bəbə"
+      "value": "BrendUlvi"
     }
   },
   "buildpacks": [{
