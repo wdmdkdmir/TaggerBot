@@ -1,10 +1,9 @@
-### User Tag Bot
-Lizz & Mucive & Hassan & Yuni >> Terefinden Klon edilib...
-Project tapan sexs Lizz Dejavu Team Owenrs.
-
-Etrafli Lizz Yaza bilersiniz, oda cavab verse...
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Salam+Mən+Brend+Ülvi!)
+</p></p>
 
 
-<b>HEROKU'LA DAĞIDIN</b>
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/offlineflood/UserTagBot.git)
 
+
+## DEPLOY ON HEROKU 🚀
+
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/BrendUlvi/UlviTag"><img align="center" alt="Heroku" width="52px" src="https://www.nicepng.com/png/full/223-2233246_heroku-logo-salesforce-heroku.png"></p>
