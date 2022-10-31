@@ -25,9 +25,9 @@ async def hg(bot: Client, msg: Message):
 
 #-------------------------------------------------------------OWNERS SALAMLAMA MSJ---------------------------------------------------------------------------------------#
         elif str(new_user.id) == str(Config.OWNER_ID):
-            await msg.reply('🤖 [𝗨𝗹𝘃𝗶 𝗧𝗮𝗴𝗴𝗲𝗿](https://t.me/BrendUlvi)-un Sahibi, Qrupa Qatıldı.\n Xoş Gəldin  Aramıza Sahib, Necəsən?🥰.')
+            await msg.reply('🤖 [Ədalət 𝗧𝗮𝗴𝗴𝗲𝗿](https://t.me/EdaletSup)-un Sahibi, Qrupa Qatıldı.\n Xoş Gəldin  Aramıza Sahib, Necəsən?🥰.')
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
 
 app.start()
-print(f"Bot piroqramı ( {pyrogram.__version__} ilə başladı... Botu işə salın!")
+print(f"Bot poroqramı ( {pyrogram.__version__} ilə başladı... Botu işə salın!")
 idle()
