@@ -1,4 +1,4 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Salam+Mən+Brend+Ülvi!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Salam+Mən+Ədalət!)
 </p></p>
 
 
