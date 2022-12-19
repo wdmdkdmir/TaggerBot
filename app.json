@@ -5,39 +5,39 @@
   "env": {
     "BOT_TOKEN": {
       "description": "Botfather-dən Bot nişanı.",
-      "value": "5777282779:AAGT_x4O7MPEUHLdMc3UFyJigxmIGv9-6_M"
+      "value": "5682438289:AAHSYfpzUpF9IbzF5QpIxjLB9XnQqfWqjuo"
     },
     "API_ID": {
       "description": "Bu dəyəri https://my.telegram.org saytından əldə edin.",
-      "value": "21313204"
+      "value": "18485822"
     },
     "API_HASH": {
       "description": "Bu dəyəri https://my.telegram.org saytından əldə edin.",
-      "value": "39231a44e25daff4a7573a535fdd094b"
+      "value": "34b19a3b88b49110f472258e31bf1f13"
     },
     "BOT_NAME": {
       "description": "User Tag Botunuz üçün ad. Zəhmət olmasa ascii simvollarından istifadə etməyin.",
-      "value": "bəbə"
+      "value": "Ə∂αℓəƭ"
     },
     "BOT_USERNAME": {
       "description": "Botun ünvanını daxil edin.",
-      "value": "bəbə"
+      "value": "edalettagbot"
     },
     "BOT_ID": {
       "description": "Botun id-sini daxil edin.",
-      "value": "bəbə"
+      "value": "5682438289"
     },
     "SUDO_USERS": {
       "description": "Botun sahibini daxil edin.",
-      "value": "bəbə"
+      "value": "5540993505"
     },
     "SUPPORT_CHAT": {
       "description": "Botun dəstək qrupuna daxil olun.",
-      "value": "bəbə"
+      "value": "EdaletSup"
     },
     "OWNER_ID": {
       "description": "SAHİBİ olarak eklemek istediğiniz kullanıcı(lar)ın kullanıcı kimlikleri. Çoklu değerler bir boşluk ile ayrılmalıdır.",
-      "value": "bəbə"
+      "value": "5540993505"
     },
     "OWNER_USERNAME": {
       "description": "Botun sahibinin ünvanını daxil edin.",
