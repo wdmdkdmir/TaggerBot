@@ -40,21 +40,21 @@ async def start(event):
   if event.is_private:
     async for usr in client.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.reply(f"**Salam**Mənim Adım [Ədalət Tagger Bot](http://t.me/edaletsup)-u.\n**Qurupunuz'daki  bütün üzvləri tağ etmək səlahiyyətinə sahibəm.\n\nƏtraflı müəlumat üçün '📚Əmrlər' bölməsinə daxil olun.**", buttons=(
-                     [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/edalettagbot?startgroup=a')],
+     await event.reply(f"**Salam**Mənim Adım [DevGirl Tagger Bot](http://t.me/edaletsup)-u.\n**Qurupunuz'daki  bütün üzvləri tağ etmək səlahiyyətinə sahibəm.\n\nƏtraflı müəlumat üçün '📚Əmrlər' bölməsinə daxil olun.**", buttons=(
+                     [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/DevGirl_Tagger_Bot?startgroup=a')],
 	             [Button.inline(f"📚 Əmrlər", data="help"),
 	              Button.inline(f"📑 Təkliflər", data="reklam")],
-	             [Button.url('Qrup💬', 'https://t.me/EdaletSup'),
-                      Button.url('Sahib 👨‍💻', 'https://t.me/edalet_22')],
+	             [Button.url('Qrup💬', 'https://t.me/DevGirl_Sup'),
+                      Button.url('Sahib 👨‍💻', 'https://t.me/DevGirl18')],
                     ),
                     link_preview=False)
 
 
   if event.is_group:
-    return await client.send_message(event.chat_id, f"** [Ədalət Tag Bot](http://t.me/edalettagbot)'un Əmrlər üçün?.Bot'a daxil olub.**", buttons=(
-                     [Button.url('💡Bota Keç','https://t.me/edalettagbot?start=start')],
-	             [Button.url('Sahib 👨‍💻', 'https://t.me/edalet_22'),
-		      Button.url('Qrup💬', 'https://t.me/EdaletSup')],
+    return await client.send_message(event.chat_id, f"** [DevGirl Tagger Bot](http://t.me/edalettagbot)'un Əmrlər üçün?.Bot'a daxil olub.**", buttons=(
+                     [Button.url('💡Bota Keç','https://t.me/DevGirl_Tagger_Bot?start=start')],
+	             [Button.url('Sahib 👨‍💻', 'https://t.me/DevGirl18'),
+		      Button.url('Qrup💬', 'https://t.me/DevGirl_Sup')],
                     ),
                     link_preview=False)
 
