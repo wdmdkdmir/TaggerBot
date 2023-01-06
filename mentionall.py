@@ -64,31 +64,31 @@ async def start(event):
 async def handler(event):
     async for usr in client.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.edit(f"**Salam**\nMənim Adım [Ədalət Tag Bot](http://t.me/edalettagbot)-u.\n**Qurupunuz'daki  bütün üzvləri tağ etmək səlahiyyətinə sahibəm.\n\n🤖Ətraflı müəlumat üçün '📚Əmrlər' bölməsinə daxil olun.**", buttons=(
-                     [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/edalettagbot?startgroup=a')],
+     await event.edit(f"**Salam**\nMənim Adım [DevGirl Tagger Bot](http://t.me/edalettagbot)-u.\n**Qurupunuz'daki  bütün üzvləri tağ etmək səlahiyyətinə sahibəm.\n\n🤖Ətraflı müəlumat üçün '📚Əmrlər' bölməsinə daxil olun.**", buttons=(
+                     [Button.url('➕ Məni Qrupa əlavə et ➕','http://t.me/DevGirl_Tagger_Bot?startgroup=a')],
 	             [Button.inline(f"📚 Əmrlər", data="help"),
 	              Button.inline(f"📑 Təkliflər", data="reklam")],
-	             [Button.url('Qrup💬', 'https://t.me/EdaletSup'),
-                      Button.url('Sahib 👨‍💻', 'https://t.me/edalet_22')],
+	             [Button.url('Qrup💬', 'https://t.me/DevGirl_Sup'),
+                      Button.url('Sahib 👨‍💻', 'https://t.me/DevGirl18')],
                     ),
                     link_preview=False)
 
 
 @client.on(events.callbackquery.CallbackQuery(data="help"))
 async def handler(event):	
-    await event.edit(f"**  [Ədalət Tag Bot](http://t.me/edalettagbot)-un Kömək '📚 Əmrlər' Bunlardır.⤵**\n\n\n•━━━━━━━━•••━━━━━━━━•\n**➪ /tag <səbəb> - 5-li Tag Atışları.**\n**➪ /etag <səbəb> - Emoji ilə etiketlər.**\n**➪ /stag <səbəb> - Söz'lü Tag etiketlər.**\n**➪/btag- <səbəb> - bayrağlar ilə etiketlər.**\n**➪/mafia- <səbəb> - Mafia oyunun rolları ilə etiketlər.**\n**➪/adtag- <səbəb> - Marağlı adlar ilə etiket atar.**\n**➪/edalet- <səbəb> - Maraglı sözlər ilə tag eder. **\n**➪/tektag <səbəb> - Üzvləri Tək-Tək etiketlər.**\n**➪ /admins <səbəb> - İdarəçilər Tək-Tək etiketlər.**\n**➪ /cancel - Tag Ələməyi Dayandır.**\n•━━━━━━━━•••━━━━━━━━•", buttons=(
-	             [Button.url('Qrup💬', 'https://t.me/EdaletSup'),
-                      Button.url('Sahib 👨‍💻', 'https://t.me/edalet_22')],
+    await event.edit(f"**  [DevGirl Tagger Bot](http://t.me/edalettagbot)-un Kömək '📚 Əmrlər' Bunlardır.⤵**\n\n\n•━━━━━━━━•••━━━━━━━━•\n**➪ /tag <səbəb> - 5-li Tag Atışları.**\n**➪ /etag <səbəb> - Emoji ilə etiketlər.**\n**➪ /stag <səbəb> - Söz'lü Tag etiketlər.**\n**➪/btag- <səbəb> - bayrağlar ilə etiketlər.**\n**➪/mafia- <səbəb> - Mafia oyunun rolları ilə etiketlər.**\n**➪/adtag- <səbəb> - Marağlı adlar ilə etiket atar.**\n**➪/edalet- <səbəb> - Maraglı sözlər ilə tag eder. **\n**➪/tektag <səbəb> - Üzvləri Tək-Tək etiketlər.**\n**➪ /admins <səbəb> - İdarəçilər Tək-Tək etiketlər.**\n**➪ /cancel - Tag Ələməyi Dayandır.**\n•━━━━━━━━•••━━━━━━━━•", buttons=(
+	             [Button.url('Qrup💬', 'https://t.me/DevGirl_Sup'),
+                      Button.url('Sahib 👨‍💻', 'https://t.me/DevGirl18')],
 	             [Button.inline(f"🔙 Geri", data="start")]
                     ),
                     link_preview=False)
 
 @client.on(events.callbackquery.CallbackQuery(data="reklam"))
 async def handler(event):	
-    await event.edit(f"**📌 [Ədalət Tag Bot](http://t.me/edalettagbot)-un & Təkliflər üçün sahib'lə əlaqə saxlaya bilərsiniz...**", buttons=(
+    await event.edit(f"**📌 [DevGirl Tagger Bot](http://t.me/edalettagbot)-un & Təkliflər üçün sahib'lə əlaqə saxlaya bilərsiniz...**", buttons=(
 		     [Button.url('🎉 Diyər botlar', 'https://t.me/Edaletproject')],
-	             [Button.url('Qrup💬', 'https://t.me/EdaletSup'),
-                      Button.url('Sahib 👨‍💻', 'https://t.me/edalet_22')],
+	             [Button.url('Qrup💬', 'https://t.me/DevGirl_Sup'),
+                      Button.url('Sahib 👨‍💻', 'https://t.me/DevGirl18')],
 	             [Button.inline(f"🔙 Geri", data="start")]
                     ),
                     link_preview=False)
@@ -845,10 +845,10 @@ async def handler(event):
         return await event.reply("__Sən mənə sahib deyilsən!__")
     await event.reply('**Bot İşləyir Narahat olmayın** \n https://t.me/EdaletSup \n\n╭━━━╮ \n╰╮╭╮┃╱╱╭╮\n╱┃┃┃┣━━╋╋━━┳╮╭┳╮╭╮\n╱┃┃┃┃┃━╋┫╭╮┃╰╯┃┃┃┃\n╭╯╰╯┃┃━┫┃╭╮┣╮╭┫╰╯┃\n╰━━━┻━━┫┣╯╰╯╰╯╰━━╯\n╱╱╱╱╱╱╭╯┃\n╱╱╱╱╱╱╰━╯',
 		     buttons=(
-	             [Button.url('Sahibi','https://t.me/edalet_22'),
-	             Button.url('Group','https://t.me/EdaletSup')],
+	             [Button.url('Sahibi','https://t.me/DevGirl18'),
+	             Button.url('Group','https://t.me/DevGirl_Sup')],
                     ),
                     link_preview=False)
 
-print(">> Bot işləyir narahat olmayın. @edalet_22 Məlumat almaq üçün <<")
+print(">> Bot işləyir narahat olmayın. @DevGirl18 Məlumat almaq üçün <<")
 client.run_until_disconnected()
