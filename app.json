@@ -13,35 +13,35 @@
     },
     "API_HASH": {
       "description": "Bu dəyəri https://my.telegram.org saytından əldə edin.",
-      "value": "34b19a3b88b49110f472258e31bf1f13"
+      "value": "adf9d0f1457cbe17c24576432b38c476"
     },
     "BOT_NAME": {
       "description": "User Tag Botunuz üçün ad. Zəhmət olmasa ascii simvollarından istifadə etməyin.",
-      "value": "Ə∂αℓəƭ"
+      "value": "DevGirl Tagger"
     },
     "BOT_USERNAME": {
       "description": "Botun ünvanını daxil edin.",
-      "value": "edalettagbot"
+      "value": "DevGirl_Tagger_Bot"
     },
     "BOT_ID": {
       "description": "Botun id-sini daxil edin.",
-      "value": "5682438289"
+      "value": "5808359107"
     },
     "SUDO_USERS": {
       "description": "Botun sahibini daxil edin.",
-      "value": "5540993505"
+      "value": "5487900140"
     },
     "SUPPORT_CHAT": {
       "description": "Botun dəstək qrupuna daxil olun.",
-      "value": "EdaletSup"
+      "value": "DevGirl_Sup"
     },
     "OWNER_ID": {
       "description": "SAHİBİ olarak eklemek istediğiniz kullanıcı(lar)ın kullanıcı kimlikleri. Çoklu değerler bir boşluk ile ayrılmalıdır.",
-      "value": "5540993505"
+      "value": "5487900140"
     },
     "OWNER_USERNAME": {
       "description": "Botun sahibinin ünvanını daxil edin.",
-      "value": "edalet_22"
+      "value": "Devgirl18"
     }
   },
   "buildpacks": [{
