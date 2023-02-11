@@ -38,25 +38,69 @@ tekli_calisan = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   if event.is_private:
+    async for usr in client.iter_paimport random, os, logging, asyncio
+from telethon import Button
+from telethon import TelegramClient, events
+from telethon.sessions import StringSession
+from telethon.tl.types import ChannelParticipantsAdmins
+from asyncio import sleep
+from Config import Config 
+
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(name)s - [%(levelname)s] - %(message)s'
+)
+LOGGER = logging.getLogger(__name__)
+
+api_id = Config.API_ID
+api_hash = Config.API_HASH
+bot_token = Config.BOT_TOKEN
+bot_username = Config.BOT_USERNAME
+support = Config.SUPPORT_CHAT
+owner = Config.OWNER_USERNAME
+bot_name = Config.BOT_NAME
+
+
+SUDO_USERS = Config.SUDO_USERS
+
+
+client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
+
+anlik_calisan = []
+
+tekli_calisan = []
+  
+
+	
+	
+	
+@client.on(events.NewMessage(pattern="^/start$"))
+async def start(event):
+  if event.is_private:
     async for usr in client.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.reply(f"**Merhaba**Benim Adım [USTA Tagger Bot](http://t.me/ustaggerbot)-u.\n**Grubunuzun tüm üyelerini tag etme yetkim var.\n\Daha fazla bilgi için '📚'Komutlar' bölümüne gidin.**", buttons=(
-                     [Button.url('➕ Beni bir Gruba ekle ➕','http://t.me/ustaggerbot?startgroup=a')],
+     await event.reply(f"**Merhaba**Benim Adım **Etiketle Bot** (http://t.me/etiketlerobot)-u.\n**Grubunuzun tüm üyelerini tag etme yetkim var.\n\Daha fazla bilgi için '📚'Komutlar' bölümüne gidin.**", buttons=(
+                     [Button.url('➕ Beni bir Gruba ekle ➕','http://t.me/etiketlerobot?startgroup=a')],
+	             [Button.inline(rticipants(event.chat_id):
+     ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
+     await event.reply(f"**Merhaba**Benim Adım **Etiketle Bot** (http://t.me/etiketlerobot)-u.\n**Grubunuzun tüm üyelerini tag etme yetkim var.\n\Daha fazla bilgi için '📚'Komutlar' bölümüne gidin.**", buttons=(
+                     [Button.url('➕ Beni bir Gruba ekle ➕','http://t.me/etiketlerobot?startgroup=a')],
 	             [Button.inline(f"📚 Komutlar", data="help"),
 	              Button.inline(f"📑 Teklifler", data="reklam")],
-	             [Button.url('Grup💬', 'https://t.me/ustaggersup'),
-                      Button.url('Sahip 👨‍💻', 'https://t.me/goruntulemesayisi31')],
+	
+                      Button.url('Sahip 👨‍💻', 'https://t.me/LuazHCK')],
                     ),
                     link_preview=False)
 
 
   if event.is_group:
-    return await client.send_message(event.chat_id, f"** [Usta, Tagger Bot'ta etiketlendi](http://t.me/ustaggerbot) Komutlar için?.Bot.**", buttons=(
-                     [Button.url('💡Bota geç','https://t.me/ustaggerbot?start=start')],
-	             [Button.url('Sahip 👨‍💻', 'https://t.me/goruntulemesayisi31'),
-		      Button.url('Grup💬', 'https://t.me/ustaggersup')],
-                    ),
-                    link_preview=False)
+    return await client.send_message(event.chat_id, f"** [Etiketle Bot'ta etiketlendi](http://t.me/etiketlerobot) Komutlar için?.Bot.**", buttons=(
+                     [Button.url('💡Bota geç','https://t.me/etiketlerobot?start=start')],
+	             [Button.url('Sahip 👨‍💻', 'https://t.me/luazHCK'),
+
+
+                        link_preview=False)
 
 
 
@@ -64,31 +108,31 @@ async def start(event):
 async def handler(event):
     async for usr in client.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.edit(f"**Merhaba**Benim Adım [USTA Tagger Bot](http://t.me/ustaggerbot)-u.\n**Grubunuzun tüm üyelerini tag etme yetkim var.\n\Daha fazla bilgi için '📚'Komutlar' bölümüne gidin.**", buttons=(
-                     [Button.url('➕ Beni bir Gruba ekle ➕','http://t.me/ustaggerbot?startgroup=a')],
+     await event.edit(f"**Merhaba** Benim Adım **Etiketle Bot**(http://t.me/etiketlerobot)-u.\n**Grubunuzun tüm üyelerini tag etme yetkim var.\n\Daha fazla bilgi için '📚'Komutlar' bölümüne gidin.**", buttons=(
+                     [Button.url('➕ Beni bir Gruba ekle ➕','http://t.me/etiketlerobot?startgroup=a')],
 	            [Button.inline(f"📚 Komutlar", data="help"),
 	              Button.inline(f"📑 Teklifler", data="reklam")],
-	             [Button.url('Grup💬', 'https://t.me/ustaggersup'),
-                      Button.url('Sahip 👨‍💻', 'https://t.me/goruntulemesayisi31')],
+
+                      Button.url('Sahip 👨‍💻', 'https://t.me/luazhck')],
                     ),
                     link_preview=False)
 
 
 @client.on(events.callbackquery.CallbackQuery(data="help"))
 async def handler(event):	
-    await event.edit(f"**  [Usta Tagger Bot](http://t.me/ustaggerbot)-un Yardım '📚 komutları' Bunlardır.⤵**\n\n\n•━━━━━━━━•••━━━━━━━━•\n**➪ /tag <sebep> - 5-li Tag Atışları.**\n**➪ /etag <sebep> - Emoji ile etiketler.**\n**➪ /stag <sebep> - Söz'lü Tag etiketler.**\n**➪/btag- <sebep> - bayraklar ile etiketler.**\n**➪/mafia- <səbəb> - Mafia oyunun rolları ile etiketler.**\n**➪/adtag- <sebep> - İlginç adlar ile etiket atar.**\n**➪/edalet- <səbəb> - Maraglı sözlər ilə tag eder. **\n**➪/tektag <səbəb> - Üzvləri Tək-Tək etiketler.**\n**➪ /admins <səbəb> - Yöneticiler Tek-Tek etiketler.**\n**➪ /cancel - Etiketlemeyi Durdur.**\n•━━━━━━━━•••━━━━━━━━•", buttons=(
-	             [Button.url('Qrup💬', 'https://t.me/DevGirl_Sup'),
-                      Button.url('Sahib 👨‍💻', 'https://t.me/DevGirl18')],
+    await event.edit(f"**  [Etiketle Bot](http://t.me/etiketlerobot)-un Yardım '📚 komutları' Bunlardır.⤵**\n\n\n•━━━━━━━━•••━━━━━━━━•\n**➪ /tag <sebep> - 5-li Tag Atışları.**\n**➪ /etag <sebep> - Emoji ile etiketler.**\n**➪ /stag <sebep> - Söz'lü Tag etiketler.**\n**➪/btag- <sebep> - bayraklar ile etiketler.**\n**➪/mafia- <səbəb> - Mafia oyunun rolları ile etiketler.**\n**➪/adtag- <sebep> - İlginç adlar ile etiket atar.**\n**➪/edalet- <səbəb> - Maraglı sözlər ilə tag eder. **\n**➪/tektag <səbəb> - Üzvləri Tək-Tək etiketler.**\n**➪ /admins <səbəb> - Yöneticiler Tek-Tek etiketler.**\n**➪ /cancel - Etiketlemeyi Durdur.**\n•━━━━━━━━•••━━━━━━━━•", buttons=(
+	    
+                      Button.url('Sahip 👨‍💻', 'https://t.me/luazhck')],
 	             [Button.inline(f"🔙 Geri", data="start")]
                     ),
                     link_preview=False)
 
 @client.on(events.callbackquery.CallbackQuery(data="reklam"))
 async def handler(event):	
-    await event.edit(f"**📌 [Usta Tagger Bot](http://t.me/ustaggerbot)-un & Teklifler için sahibiyle iletişime geçebilirsiniz...**", buttons=(
-		     [Button.url('🎉 botlar', 'https://t.me/goruntulemesayisi31')],
-	             [Button.url('Grup💬', 'https://t.me/ustaggersup'),
-                      Button.url('Sahip 👨‍💻', 'https://t.me/goruntulemesayisi31')],
+    await event.edit(f"**📌 [Etiketle Bot](http://t.me/etiketlerobot)-un & Teklifler için sahibiyle iletişime geçebilirsiniz...**", buttons=(
+		     [Button.url('🎉 botlar', 'https://t.me/luazhck')],
+	
+                      Button.url('Sahip 👨‍💻', 'https://t.me/LuazHCK')],
 	             [Button.inline(f"🔙 Geri", data="start")]
                     ),
                     link_preview=False)
