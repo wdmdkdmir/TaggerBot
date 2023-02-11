@@ -6,23 +6,23 @@ class Config():
 
     #>>> https://my.telegram.org
 
-    API_ID = "14993791"
+    API_ID = "17896192"
 
-    API_HASH = "60a2897e2d7de8eefd6cf610085b1f0a"
+    API_HASH = "79e409740abed987c9a1104fedf1cb0a"
 
-    BOT_TOKEN = "5877068414:AAEuYMN7WLfoAXZ7r5310Ob8AWDHPUg-Lug"
+    BOT_TOKEN = "5767180230:AAFynCU06695tOBZRXh2J5fIFSLqvoeuNrM"
 
-    BOT_USERNAME = "ustaggerbot"
+    BOT_USERNAME = "EtiketleRobot"
 
-    BOT_NAME = "ustaggerbot"
+    BOT_NAME = "Etiketle Bot"
 
-    BOT_ID = "5877068414"
+    BOT_ID = "5767180230"
 
-    SUDO_USERS = "5601145914"
+    SUDO_USERS = "5945348500"
 
-    SUPPORT_CHAT = "ustaggersup"
+    SUPPORT_CHAT = "sohbetknkmi"
 
-    OWNER_ID = "5601145914"
+    OWNER_ID = "5945348500"
 
-    OWNER_USERNAME = "goruntulemesayisi31"
+    OWNER_USERNAME = "LuazHCK"
 
