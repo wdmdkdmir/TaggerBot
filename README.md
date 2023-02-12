@@ -8,4 +8,4 @@
 
 
 
-[Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/alAS1D?referralCode=bb6vKE)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/alAS1D?referralCode=bb6vKE)
