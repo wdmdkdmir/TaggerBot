@@ -1,12 +1,11 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Selam,+ben+ERDEMVİAYPİ!)
-</p></p>
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Selam,+ben+LuazHCK!)
 
 
 
 
-## DEPLOY ON HEROKU 🚀
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/EsebiKzh/TaggerBot"><img align="center" alt="Heroku" width="52px" src="https://www.nicepng.com/png/full/223-2233246_heroku-logo-salesforce-heroku.png"></p>
+## DEPLOY ON RAILWAY 🚀
 
-## DEPLOY ON Railway 🚀
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/jbRsR2?referralCode=bdzflU)
+
+
+[Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/alAS1D?referralCode=bb6vKE)
