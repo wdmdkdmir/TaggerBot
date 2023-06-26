@@ -5,7 +5,7 @@
   "env": {
     "BOT_TOKEN": {
       "description": "Botfather-dən Bot nişanı.",
-      "value": "5682438289:AAHSYfpzUpF9IbzF5QpIxjLB9XnQqfWqjuo"
+      "value": "5895498879:AAFetouaGKvxCAaeXjPeh-Ko6e_85BXJ_mI"
     },
     "API_ID": {
       "description": "Bu dəyəri https://my.telegram.org saytından əldə edin.",
